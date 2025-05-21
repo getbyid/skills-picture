@@ -4,11 +4,15 @@ const https = require('node:https')
 
 const PORT = process.env.PORT && Number(process.env.PORT) || 8888
 
+// https://www.svgrepo.com/collection/vscode-icons/
+// https://www.svgrepo.com/svg/373635/go-gopher
+// https://www.svgrepo.com/svg/373965/pgsql
+// https://www.svgrepo.com/svg/374016/python
 const IMAGES = {
-  docker: 'https://dev-to-uploads.s3.amazonaws.com/uploads/badge/badge_image/87/docker-badge.png',
-  linux: 'https://kernel.org/theme/images/logos/tux.png',
-  nodejs: 'https://dev-to-uploads.s3.amazonaws.com/uploads/badge/badge_image/23/node-sticker.png',
-  python: 'https://dev-to-uploads.s3.amazonaws.com/uploads/badge/badge_image/20/57795360-bec24f00-7713-11e9-9516-20f5f5d0f034.png',
+  golang: 'https://www.svgrepo.com/show/373635/go-gopher.svg',
+  linux: 'https://www.svgrepo.com/show/448236/linux.svg',
+  postgres: 'https://www.svgrepo.com/show/373965/pgsql.svg',
+  python: 'https://www.svgrepo.com/show/374016/python.svg',
 }
 
 function requestListener(req, res) {

@@ -19,13 +19,7 @@
 * [Linux Foundation Projects](https://www.linuxfoundation.org/projects), формат SVG - AsyncAPI, GraphQL, gRPC, JSON Schema, NATS, OpenAPI, Rust, Linux, ...
 * [OpenJS Foundation Projects](https://openjsf.org/projects/) - Node.js, webpack, Fastify, Jest, ...
 
-Нужны логотипы с прозрачным фоном, лучше всего в формате PNG - есть прозрачность, нет потери качества при однотонной заливке.
-
-Ещё вариант:
-
-* Зайти на [dev.to](https://dev.to/tags)
-* Найти нужную картинку, открыть в новой вкладке
-* Из адресной строки скопировать всё что после `https://dev-to-uploads.s3.amazonaws.com`
+Нужны логотипы с прозрачным фоном, лучше всего в формате PNG или SVG - есть прозрачность, нет потери качества при однотонной заливке.
 
 ## Цвет фона
 
@@ -53,10 +47,10 @@ skills.html:1 Access to fetch at 'https://kernel.org/theme/images/logos/tux.png'
 $ node server.js 
 Server started on http://localhost:8888
 GET /
-GET /nodejs.png
 GET /python.png
-GET /docker.png
+GET /golang.png
 GET /linux.png
+GET /postgres.png
 ~~~
 
 Другой способ получить файл - через консоль браузера:
